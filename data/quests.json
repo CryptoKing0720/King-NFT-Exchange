@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Create your NFTEarth user profile",
+    "description": "Connect your wallet to create your NFTEarth profile",
+    "type": "one-time",
+    "tasks": [
+      {
+        "type": "connection",
+        "name": "wallet"
+      }
+    ],
+    "exp": 25
+  },
+  {
+    "id": 4,
+    "title": "Join Discord",
+    "description": "Join the NFTEarth community in Discord to start earning XP.",
+    "type": "one-time",
+    "tasks": [
+      {
+        "type": "connection",
+        "name": "discord"
+      },
+      {
+        "type": "discord",
+        "id": "1062256160264171520"
+      }
+    ],
+    "exp": 125
+  }
+]
+
